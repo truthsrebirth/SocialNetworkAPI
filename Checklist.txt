@@ -2,12 +2,16 @@ NoSQL Challenge: Social Network API
 
 1. Your challenge is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 
+***DONE
 2. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM.
 
     A.  "npm i express" to install express
     B.  "npm i mongoose" to install mongoose
 
+***DONE
 3. In addition to using the Express.js(link) and Mongoose(link) packages, you may also optionally use a JavaScript date library of your choice or the native JavaScript Date object to format timestamps.
+
+    To install Moment.js , I entered "npm i moment" into the terminal
 
 4. Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
 
