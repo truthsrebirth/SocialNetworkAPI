@@ -13,6 +13,10 @@ app.use("/api", require("./Routes"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// mongoose.connect here?
+
+// mongoose.set here?
+
 // This will log in the terminal
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);
