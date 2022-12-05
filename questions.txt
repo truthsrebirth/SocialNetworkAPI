@@ -1,0 +1,9 @@
+1. Where do the mongoose models that are synced to the MongoDB come from?
+
+How do I make sure the data recieved from these routes are displayed in json form?
+
+How do I get the POST/PUT/DELETE routes to show up in Insomnia?
+
+How do I create a virtual called friendCount that retrieves the length of the user's friends array field on query?
+
+To start the application, am I using npm run start or node server.js ?
