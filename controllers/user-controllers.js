@@ -102,5 +102,5 @@ const userController = {
     }
 };
 
-// export the code
+// export the userController function
 module.exports = userController;

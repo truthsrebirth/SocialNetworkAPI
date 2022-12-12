@@ -2,7 +2,7 @@ const {Thoughts, User} = require('../Models');
 
 
 thoughtsControllers = {
-    
+
     // get all the thoughts
     getThoughts(req, res) {
         Thoughts.find({})
@@ -88,7 +88,7 @@ thoughtsControllers = {
             })
             .then(dbUserData => {
                 if (!dbUserData) {
-                    res.status(404).json({ message: 'No user found at this id' });
+                    res.status(404).json({ message: 'No user was found at this id' });
                     return;
                 }
 
@@ -108,7 +108,7 @@ thoughtsControllers = {
         )
             .then(dbThoughtsData => {
                 if (!dbThoughtsData) {
-                    res.status(404).json({ message: 'No thought found at this id!' });
+                    res.status(404).json({ message: 'No thought was found at this id!' });
                     return;
                 }
 
